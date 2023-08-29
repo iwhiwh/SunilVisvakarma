@@ -12,22 +12,27 @@
         },
         "BOT_TOKEN": {
             "description": "Your bot token.",
+"value":"6562938079:AAHFyBLGokjWLHXsIjxqkxd4qtKuQvtWqqE",
             "required": true
         },
         "API_ID": {
             "description": "Get this value from https://my.telegram.org",
+"value":"27106563",
             "required": true
         },
         "API_HASH": {
             "description": "Get this value from https://my.telegram.org",
+"value":"bc347e85dfa4ce7cae0fe3479cda705f",
             "required": true
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
+"value":"-1001964677353",
             "required": false
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
+"value":"1277771711",
             "required": true
         },
         "SHORT_API": {
@@ -40,10 +45,12 @@
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
+"value":"https://telegra.ph/file/8ae35790898bf14b342cf.jpg",
             "required": false
         },
         "LOG_CHANNEL": {
             "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+"value":"-1001952734983",
             "required": true                              
         },
         "AUTH_CHANNEL": {
@@ -57,16 +64,17 @@
         },
         "CUSTOM_FILE_CAPTION": {
             "description": "A custom file caption for your files. formatable with , file_name, file_caption, file_size, Read Readme.md for better understanding.",
-            "value": "Hey {mention}👋\n\n{file_name}\n\n🔘 size - {file_size}\n\n╭─── • ❰ @MR_LINK_Z ❱ • ────➤\n┣ ▫️ @MRxSERIES\n┣ ▫️ @MalluMovie_Official\n╰─────── • ◆ • ───────➤",
+            "value": "<code>{file_name}</code> \n🇮🇳 join - @BackupChannel0143",
             "required": false
         },
         "DATABASE_URL": {
             "description": "mongoDB URI.",
+"value":"mongodb+srv://happythehour:skumar(2006)@cluster0.wttyshn.mongodb.net/?retryWrites=true&w=majority",
             "required": true
         },
         "DATABASE_NAME": {
             "description": "Name of the database in mongoDB.",
-            "value": "Cluster0",
+            "value": "PROFESSOR",
             "required": false
         },
         "COLLECTION_NAME": {
@@ -76,7 +84,7 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "MKN_BOTZ_DISCUSSION_GROUP",
+            "value": "BackupChannel0143",
             "required": false
         },
         "IMDB": {
@@ -91,7 +99,7 @@
         },
         "IMDB_TEMPLATE": {
             "description": "Custom IMDB Template",
-            "value": "<b>Qᴜᴇʀʏ: {query}</b>\n\n🏷 Tɪᴛʟᴇ: <a href={url}>{title}</a>\n🎭 Gᴇɴʀᴇꜱ: {genres}\n📆 Yᴇᴀʀ: <a href={url}/releaseinfo>{year}</a>\n🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10",        
+            "value": "🏷 Tɪᴛʟᴇ: <a href={url}>{title}</a>\n🎭 Gᴇɴʀᴇꜱ: {genres}\n📆 Yᴇᴀʀ: <a href={url}/releaseinfo>{year}</a>\n🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a>/10",        
             "required": false
         }, 
         "IMDB_DELET_TIME": {
@@ -121,7 +129,7 @@
         },
         "WELCOM_PIC": {
             "description": "Welcome message pic (telegraph link)",
-            "value": "",
+            "value": "https://telegra.ph/file/8ae35790898bf14b342cf.jpg",
             "required": false
         },
         "WELCOM_TEXT": {
